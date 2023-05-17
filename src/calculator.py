@@ -23,3 +23,6 @@ class Calculator:
     def reset(self):
         self.result = 0
         return self.result
+
+    def clear(self):
+        return self.reset()
